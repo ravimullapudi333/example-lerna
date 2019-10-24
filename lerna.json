@@ -2,5 +2,9 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.2"
+  "npmClient": "node",
+  "useWorkspaces": true,
+  "version": "0.0.2",
+  "useGitVersion": true,
+  "gitVersionPrefix": "v"
 }
